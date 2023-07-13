@@ -9,7 +9,7 @@ import SwiftUI
 
 struct SwiftUIView: View {
     var body: some View {
-        Text("This is package manager you created")
+        Text("This is package manager you created!")
     }
 }
 

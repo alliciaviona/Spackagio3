@@ -7,13 +7,16 @@
 
 import SwiftUI
 
-struct SwiftUIView: View {
+public struct SwiftUIView: View {
+    @available(iOS 13.0, *)
+    public init() {}
     var body: some View {
         Text("This is package manager you created!")
     }
 }
 
 struct SwiftUIView_Previews: PreviewProvider {
+    @available(iOS 13.0, *)
     static var previews: some View {
         SwiftUIView()
     }
